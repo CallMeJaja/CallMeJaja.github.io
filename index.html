@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/IMG/ja.jpg" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/CSS/styles.css">
+        <link rel="icon" href="assets/IMG/ja.jpg">
+
+        <title>J-STORE</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                            <img src="assets/IMG/ja.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">J-STORE</h2>
+                    <h3 class="profile__profession">Menyediakan layanan aplikasi premium</h3>
+                </div>
+
+                <div class="profile__buttons">
+                    
+                    <div class="profile__buttons-small">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=6285872792870&text=Hallo kak" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+                        <a href="https://m.me/jajanetid" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        List Layanan
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Top Up Game
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/IMG/netflix.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Rp. 35.000</span>
+                                    <h3 class="projects__title">NETFLIX PREMIUM 1P 1U ( 30 HARI )</h3>
+                                    <a href="https://api.whatsapp.com/send?phone=6285872792870&text=Permisi,+saya+mau+beli+Netflix+Premium" class="projects__button button button__small">Beli
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        
+                        <article class="projects__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="assets/IMG/youtube.jpg" alt="" class="projects__img">
+                        
+                        <div class="projects__modal">
+                        <div>
+                        <span class="projects__subtitle">Rp. 20.000-30.000</span>
+                        <h3 class="projects__title">YOUTUBE PREMIUM <br>( 4 / 6 BULAN )</h3>
+                        <a href="https://api.whatsapp.com/send?phone=6285872792870&text=Permisi,+saya+mau+beli+Youtube+Premium" class="projects__button button button__small">Beli
+                                    </a>
+                        </a>
+                        </div>
+                        </div>
+                        </article>
+                        
+                        <article class="projects__card">
+                        <img src="assets/IMG/vidio.jpg" alt="" class="projects__img">
+                        
+                        <div class="projects__modal">
+                        <div>
+                        <span class="projects__subtitle">Rp. 20.000</span>
+                        <h3 class="projects__title">VIDIO PLATINUM ( 30 HARI )</h3>
+                        <a href="https://api.whatsapp.com/send?phone=6285872792870&text=Permisi,+saya+mau+beli+Vidio+Platinum" class="projects__button button button__small">Beli
+                                    </a>
+                        </a>
+                        </div>
+                        </div>
+                        </article>
+                        
+                        <article class="projects__card">
+                            <img src="assets/IMG/spotify.png" alt="" class="projects__img" style="background-color: white;">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Rp. 20.000-40.000</span>
+                                    <h3 class="projects__title">SPOTIFY PREMIUM <BR>( 3 / 6 BULAN )</h3>
+                                    <a href="https://api.whatsapp.com/send?phone=6285872792870&text=Permisi,+saya+mau+beli+Spotify+Premium" class="projects__button button button__small">Beli
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/IMG/disney.png" alt="" class="projects__img disney" style="background-color: white;">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Rp. 20.000</span>
+                                    <h3 class="projects__title">DISNEY+ HOTSTAR ( 30 HARI )</h3>
+                                    <a href="https://api.whatsapp.com/send?phone=6285872792870&text=Permisi,+saya+mau+Topup+Mobile+Legend" class="projects__button button button__small">Beli
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                       <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                    <h3 class="skills__title">SEGERA HADIR</h3>
+                </div>
+            </div>
+      </div>
+  </section>
+</main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; jajastore.id Happy Shopping
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/JS/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/JS/main.js"></script>
+    </body>
+</html>
